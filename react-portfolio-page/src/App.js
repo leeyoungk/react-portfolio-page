@@ -12,19 +12,20 @@ function App() {
 		if (currentPage ==='Home') {
 			return <Home />;
 		}
-		if (currentPage ===='Project'){
+		if (currentPage ==='Project'){
 			return <Project />;
 		}
 		if (currentPage ==='Contact') {
 			return <Contact />
 		}
-		if (currentPage)=== 'Resume' {
+		if (currentPage) === 'Resume' ) {
 			return <Resume />
 		
 		}
-		if (currentPage)=== 'AboutMe' {
+		if (currentPage)=== 'AboutMe') {
 			return <AboutMe/>
 		}
+	}
 		const handlePageChange = (page) => setCurrentPage(page);
 		return (
 			<div>
@@ -33,8 +34,8 @@ function App() {
 		 </div>
 	   )
 		 
-		)
-	}
+		
+	
 	
 }
 export default App;

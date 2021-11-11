@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         
         <Modal.Dialog>
-            <Modal.Header closeButton>
+            <Modal.Header>
             <Modal.Title>Contact Information</Modal.Title>
             </Modal.Header>
 
